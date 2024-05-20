@@ -2099,6 +2099,9 @@ INCLUDE "engine/overworld/elevator.asm"
 
 INCLUDE "engine/items/tm_prices.asm"
 
+
+SECTION "bank2D",ROMX,BANK[$2D]
+
 INCLUDE "engine/battle/func_battle.asm"
 
 
