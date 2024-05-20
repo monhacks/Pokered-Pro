@@ -523,7 +523,7 @@ SetAnimationPalette:
 	ld a, [wOnSGB]
 	and a
 	;ld a, $e4	;redundant
-	jr z, .notSGB
+	jr nz, .notSGB
 	;ld a, $f0
 	;ld [wAnimPalette], a	;will handle in a SetAttackAnimPal
 
