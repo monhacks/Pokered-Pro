@@ -638,6 +638,37 @@ CopySGBBorderTiles:
 	jr nz, .tileLoop
 	ret
 
+TransferMonPal:
+	;ld a, [hGBC]
+	;and a
+	;ret z 
+	ld a, e
+	push af
+	ld a, d
+	push af
+	ld a, [wcf91]
+	cp VICTREEBEL+1
+	jr c, .isMon
+	sub VICTREEBEL+1
+.back	
+	;call GetGBCBasePalAddress
+	;pop af
+	;cp CONVERT_BGP
+	;push af
+	;call DMGPalToGBCPal
+	;pop af
+	;jr z, .do_bgp
+	;pop af
+	;call TransferCurOBPData
+	ret
+.do_bgp
+	;pop af
+	;call TransferCurBGPData
+	ret
+.isMon	
+	call DeterminePaletteIDOutOfBattle
+	jr .back
+
 INCLUDE "data/sgb_packets.asm"
 
 INCLUDE "data/mon_palettes.asm"
