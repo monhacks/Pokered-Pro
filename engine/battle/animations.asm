@@ -535,6 +535,11 @@ SetAnimationPalette:
 	jr nc, .next
 	ld b, $f0	
 .next
+	ld a, b	
+	ld [rOBP0], a		
+	ld a, $6c	
+	ld [rOBP1], a	
+	ret
 .notSGB
 	ld a, b
 ;	ld a, $e4
