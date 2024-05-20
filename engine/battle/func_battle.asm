@@ -59,7 +59,7 @@ SetAttackAnimPal:
 	ld a, [wUnusedC000]
 	jr nz, .noselfdamage
 	;if hurting self, load default palette
-	ld b, PAL_BW
+	ld b, PAL_YELLOWMON
 	jr .starttransfer
 .noselfdamage
 
@@ -185,38 +185,38 @@ SetAttackAnimPal_otheranim:
 TypePalColorList:
 	db PAL_YELLOWMON;normal
 	db PAL_GREYMON;fighting
-	db PAL_MEWMON;flying
+	db PAL_CYANMON;flying
 	db PAL_PURPLEMON;poison
 	db PAL_BROWNMON;ground
 	db PAL_GREYMON;rock
-	db PAL_BW;untyped/bird
+	db PAL_MEWMON;untyped/bird
 	db PAL_GREENMON;bug
 	db PAL_PURPLEMON;ghost
-	db PAL_BW;unused
-	db PAL_BW;unused
-	db PAL_BW;unused
-	db PAL_BW;unused
-	db PAL_BW;unused
-	db PAL_BW;unused
-	db PAL_BW;unused
-	db PAL_BW;unused
-	db PAL_BW;unused
-	db PAL_BW;unused
-	db PAL_BW;unused
+	db PAL_0F;unused
+	db PAL_0F;unused
+	db PAL_0F;unused
+	db PAL_0F;unused
+	db PAL_0F;unused
+	db PAL_0F;unused
+	db PAL_0F;unused
+	db PAL_0F;unused
+	db PAL_0F;unused
+	db PAL_0F;unused
+	db PAL_0F;unused
 	db PAL_REDMON;fire
 	db PAL_BLUEMON;water
 	db PAL_GREENMON;grass
 	db PAL_YELLOWMON;electric
 	db PAL_PINKMON;psychic
 	db PAL_CYANMON;ice
-	db PAL_REDMON;dragon
+	db PAL_BLUEMON;dragon
 ItemPalList:
-	db PAL_BW	;null item
+	db PAL_0F	;null item
 	db PAL_PURPLEMON	;master ball
-	db PAL_UBALL	;ultra ball
+	db PAL_BLACK	;ultra ball
 	db PAL_BLUEMON	;great ball
 	db PAL_REDMON	;pokeball
-	db PAL_BW	;town map
-	db PAL_BW	;bike
-	db PAL_BW	;surfboard
+	db PAL_0F	;town map
+	db PAL_0F	;bike
+	db PAL_0F	;surfboard
 	db PAL_GREENMON	;safari ball
