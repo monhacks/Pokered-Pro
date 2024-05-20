@@ -492,6 +492,17 @@ ItemUseBall:
 .skip6
 	ld a, [wcf91]
 	push af
+
+;joenote - made a catch, so adjust the BG palette for the resting pokeball
+	push de
+	;ld d, CONVERT_OBP0
+	ld e, 3
+	ld a, PAL_MEWMON
+	add VICTREEBEL+1
+	ld [wcf91], a
+	callba TransferMonPal
+	pop de
+
 	ld a, [wEnemyMonSpecies2]
 	ld [wcf91], a
 	ld a, [wEnemyMonLevel]
