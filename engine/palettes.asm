@@ -650,7 +650,7 @@ TransferMonPal:
 	cp VICTREEBEL+1
 	jr c, .isMon
 	sub VICTREEBEL+1
-.back	
+;.back	
 	;call GetGBCBasePalAddress
 	;pop af
 	;cp CONVERT_BGP
@@ -660,14 +660,15 @@ TransferMonPal:
 	;jr z, .do_bgp
 	;pop af
 	;call TransferCurOBPData
-	ret
-.do_bgp
+	;ret
+;.do_bgp
 	;pop af
 	;call TransferCurBGPData
-	ret
+	;ret
 .isMon	
 	call DeterminePaletteIDOutOfBattle
-	jr .back
+	;jr .back
+	ret
 
 INCLUDE "data/sgb_packets.asm"
 
