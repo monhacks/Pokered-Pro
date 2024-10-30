@@ -2461,7 +2461,7 @@ MoveSoundTable:
 	db SFX_BATTLE_29,         $11,$20 ; FISSURE
 	db SFX_BATTLE_16,         $10,$40 ; DIG
 	db SFX_BATTLE_0F,         $10,$c0 ; TOXIC
-	db SFX_BATTLE_27,         $50,$c0 ; CONFUSION
+	db SFX_BATTLE_27,         $50,$b0 ; CONFUSION
 	db SFX_PSYCHIC_M,         $00,$80 ; PSYCHIC_M
 	db SFX_BATTLE_35,         $11,$18 ; HYPNOSIS
 	db SFX_BATTLE_09,         $20,$c0 ; MEDITATE
