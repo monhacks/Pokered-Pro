@@ -918,7 +918,7 @@ DragoniteEvosMoves:
 	db 20, AGILITY
 	db 35, SLAM
 	db 45, DRAGON_RAGE
-	db 55, WING_ATTACK
+	db 55, TWISTER
 	db 60, HYPER_BEAM
 	db 0
 
@@ -1150,7 +1150,7 @@ HorseaEvosMoves:
 	db 0
 ; Learnset
 	db 19, SMOKESCREEN
-	db 24, FOCUS_ENERGY
+	db 24, TWISTER
 	db 30, WATER_GUN
 	db 37, AGILITY
 	db 45, HYDRO_PUMP
@@ -1161,7 +1161,7 @@ SeadraEvosMoves:
 	db 0
 ; Learnset
 	db 19, SMOKESCREEN
-	db 24, FOCUS_ENERGY
+	db 24, TWISTER
 	db 30, WATER_GUN
 	db 41, AGILITY
 	db 52, HYDRO_PUMP
