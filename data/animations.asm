@@ -1135,8 +1135,9 @@ SubstituteAnim:
 	db $FF
 
  TwisterAnim: 	
- 	db $45,$A4,$10	
- 	db $46,$FF,$04
+ 	db $45,$A4,$10
+	db SE_DARK_SCREEN_FLASH, $FF
+	db $46,$FF,$04
 	db $FF
 
 StruggleAnim:
