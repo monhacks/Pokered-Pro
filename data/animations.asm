@@ -1134,10 +1134,8 @@ SubstituteAnim:
 	db SE_SUBSTITUTE_MON, $FF
 	db $FF
 
- TwisterAnim:
- 	db SE_DARK_SCREEN_FLASH, $FF
-	db SE_DARK_SCREEN_FLASH, $A4
- 	db $45,$FF,$10
+ TwisterAnim: 	
+ 	db $45,$A4,$10
 	db SE_DARK_SCREEN_FLASH, $FF
  	db SE_DARK_SCREEN_FLASH, $FF
  	db $46,$FF,$04
