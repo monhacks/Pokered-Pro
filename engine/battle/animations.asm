@@ -700,6 +700,9 @@ AnimationIdSpecialEffects:
 	db ROCK_SLIDE
 	dw DoRockSlideSpecialEffects
 
+	db TWISTER
+	dw FlashScreenEveryFourFrameBlocks
+
 	db TRADE_BALL_DROP_ANIM
 	dw TradeHidePokemon
 
