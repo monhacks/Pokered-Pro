@@ -1138,9 +1138,10 @@ SubstituteAnim:
  	db SE_DARK_SCREEN_FLASH, $FF
  	db $45,$A4,$10
 	db SE_DARK_SCREEN_FLASH, $FF
+	db SE_DELAY_ANIMATION_10, $FF
+	db SE_DELAY_ANIMATION_10, $FF
  	db SE_DARK_SCREEN_FLASH, $FF
  	db $46,$FF,$04
-	db SE_DARK_SCREEN_FLASH, $FF
 	db $FF
 
 StruggleAnim:
