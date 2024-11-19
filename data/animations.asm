@@ -445,6 +445,7 @@ RoarAnim:
 	db $46,$2D,$15
 	db $46,$2D,$15
 	db $46,$2D,$15
+	db SE_SLIDE_ENEMY_MON_OFF, $FF
 	db $FF
 
 SingAnim:
