@@ -263,7 +263,8 @@ VoltorbEvosMoves:
 	db 22, SELFDESTRUCT
 	db 29, LIGHT_SCREEN
 	db 36, THUNDERSHOCK
-	db 43, EXPLOSION
+	db 43, SWIFT
+	db 48, EXPLOSION
 	db 0
 
 NidokingEvosMoves:
@@ -635,7 +636,8 @@ GravelerEvosMoves:
 	db 21, SELFDESTRUCT
 	db 29, HARDEN
 	db 36, EARTHQUAKE
-        db 43, EXPLOSION
+	db 43, TAKE_DOWN
+        db 52, EXPLOSION
 	db 0
 
 ChanseyEvosMoves:
@@ -752,7 +754,8 @@ GolemEvosMoves:
 	db 21, SELFDESTRUCT
 	db 29, HARDEN
 	db 36, EARTHQUAKE
-        db 43, EXPLOSION
+        db 43, TAKE_DOWN
+	db 52, EXPLOSION
 	db 0
 
 MissingNo32EvosMoves:
@@ -811,7 +814,8 @@ KoffingEvosMoves:
 	db 37, SELFDESTRUCT
 	db 40, SMOKESCREEN
 	db 45, HAZE
-	db 48, EXPLOSION
+	db 48, DOUBLE_EDGE
+	db 53, EXPLOSION
 	db 0
 
 MissingNo38EvosMoves:
@@ -1638,7 +1642,8 @@ ElectrodeEvosMoves:
 	db 22, SELFDESTRUCT
 	db 29, LIGHT_SCREEN
 	db 40, THUNDERSHOCK
-	db 50, EXPLOSION
+	db 50, SWIFT
+	db 55, EXPLOSION
 	db 0
 
 ClefableEvosMoves:
@@ -1655,7 +1660,8 @@ WeezingEvosMoves:
 	db 39, SELFDESTRUCT
 	db 43, SMOKESCREEN
 	db 49, HAZE
-	db 53, EXPLOSION
+	db 53, DOUBLE_EDGE
+	db 59, EXPLOSION
 	db 0
 
 PersianEvosMoves:
@@ -1928,7 +1934,8 @@ GeodudeEvosMoves:
 	db 21, SELFDESTRUCT
 	db 26, HARDEN
 	db 31, EARTHQUAKE
-        db 36, EXPLOSION
+        db 36, TAKE_DOWN
+	db 41, EXPLOSION
 	db 0
 
 PorygonEvosMoves:
