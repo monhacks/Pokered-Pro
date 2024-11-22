@@ -812,9 +812,9 @@ KoffingEvosMoves:
 ; Learnset
 	db 32, SLUDGE
 	db 37, SELFDESTRUCT
-	db 40, SMOKESCREEN
+	db 40, HEADBUTT
 	db 45, HAZE
-	db 48, DOUBLE_EDGE
+	db 48, SMOKESCREEN
 	db 53, EXPLOSION
 	db 0
 
@@ -1658,9 +1658,9 @@ WeezingEvosMoves:
 ; Learnset
 	db 32, SLUDGE
 	db 39, SELFDESTRUCT
-	db 43, SMOKESCREEN
+	db 43, HEADBUTT
 	db 49, HAZE
-	db 53, DOUBLE_EDGE
+	db 53, SMOKESCREEN
 	db 59, EXPLOSION
 	db 0
 
