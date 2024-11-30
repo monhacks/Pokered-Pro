@@ -1201,10 +1201,9 @@ SandslashEvosMoves:
 ; Learnset
 	db 10, SAND_ATTACK
 	db 17, SLASH
-        db 22, DIG
 	db 27, POISON_STING
 	db 36, SWIFT
-	db 45, FURY_SWIPES
+	db 47, FURY_SWIPES
 	db 0
 
 OmanyteEvosMoves:
