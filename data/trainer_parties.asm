@@ -588,7 +588,7 @@ CooltrainerMData:
 	db 44,KINGLER,CLOYSTER,0
 ; Viridian Gym
 	db 39,SANDSLASH,DUGTRIO,0
-	db 43,GOLEM,0
+	db 43,ONIX,0
 CooltrainerFData:
 ; Celadon Gym
 	db 24,WEEPINBELL,GLOOM,IVYSAUR,0
