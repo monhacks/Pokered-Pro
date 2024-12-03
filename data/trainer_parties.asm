@@ -457,7 +457,7 @@ BlackbeltData:
 	db 43,MACHOKE,0
 	db 38,MACHOKE,MACHOP,MACHOKE,0
 ; Victory Road 2F
-	db 43,MACHOKE,POLIWRATH,MACHOKE,0
+	db 43,MACHOKE,MACHOP,MACHOKE,0
 Green1Data:
 	db 5,SQUIRTLE,0
 	db 5,BULBASAUR,0
@@ -486,7 +486,7 @@ ScientistData:
 ; Silph Co. 3F/Mansion 1F
 	db 29,ELECTRODE,WEEZING,0
 ; Silph Co. 4F
-	db 33,ELECTABUZZ,0
+	db 33,ELECTRODE,0
 ; Silph Co. 5F
 	db 26,MAGNETON,KOFFING,WEEZING,MAGNEMITE,0
 ; Silph Co. 6F
@@ -494,7 +494,7 @@ ScientistData:
 ; Silph Co. 7F
 	db 29,ELECTRODE,MUK,0
 ; Silph Co. 8F
-	db 29,GRIMER,ELECTABUZZ,0
+	db 29,GRIMER,ELECTRODE,0
 ; Silph Co. 9F
 	db 28,PORYGON,KOFFING,MAGNETON,0
 ; Silph Co. 10F
