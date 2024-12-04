@@ -636,7 +636,7 @@ GravelerEvosMoves:
 	db 21, SELFDESTRUCT
 	db 29, HARDEN
 	db 36, EARTHQUAKE
-	db 43, TAKE_DOWN
+	db 43, DOUBLE_EDGE
         db 52, EXPLOSION
 	db 0
 
@@ -754,7 +754,7 @@ GolemEvosMoves:
 	db 21, SELFDESTRUCT
 	db 29, HARDEN
 	db 36, EARTHQUAKE
-        db 43, TAKE_DOWN
+        db 43, DOUBLE_EDGE
 	db 52, EXPLOSION
 	db 0
 
@@ -812,9 +812,9 @@ KoffingEvosMoves:
 ; Learnset
 	db 32, SLUDGE
 	db 37, SELFDESTRUCT
-	db 40, HEADBUTT
+	db 40, SMOKESCREEN
 	db 45, HAZE
-	db 48, SMOKESCREEN
+	db 48, HEADBUTT
 	db 53, EXPLOSION
 	db 0
 
@@ -1658,9 +1658,9 @@ WeezingEvosMoves:
 ; Learnset
 	db 32, SLUDGE
 	db 39, SELFDESTRUCT
-	db 43, HEADBUTT
+	db 43, SMOKESCREEN
 	db 49, HAZE
-	db 53, SMOKESCREEN
+	db 53, HEADBUTT
 	db 59, EXPLOSION
 	db 0
 
@@ -1934,7 +1934,7 @@ GeodudeEvosMoves:
 	db 21, SELFDESTRUCT
 	db 26, HARDEN
 	db 31, EARTHQUAKE
-        db 36, TAKE_DOWN
+        db 36, DOUBLE_EDGE
 	db 41, EXPLOSION
 	db 0
 
