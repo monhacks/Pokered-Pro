@@ -1894,7 +1894,6 @@ AnimationSlideMonDownAndHide:
 	pop bc
 	dec c
 	jr nz, .loop
-	call AnimationHideMonPic
 	ret
 			
 _AnimationSlideMonOff:
