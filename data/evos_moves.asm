@@ -327,7 +327,7 @@ ExeggcuteEvosMoves:
 	db 25, GROWTH
 	db 28, LEECH_SEED
 	db 32, STUN_SPORE
-	db 34, BARRAGE
+	db 34, BARRAGE         ; added just for Rival's Exeggcute
 	db 37, POISONPOWDER
 	db 42, SOLARBEAM
 	db 48, SLEEP_POWDER
@@ -1154,9 +1154,9 @@ HorseaEvosMoves:
 	db 0
 ; Learnset
 	db 19, SMOKESCREEN
-	db 24, TWISTER
-	db 30, WATER_GUN
-	db 37, AGILITY
+	db 24, WATER_GUN
+	db 30, AGILITY
+	db 37, TWISTER
 	db 45, HYDRO_PUMP
 	db 0
 
@@ -1165,9 +1165,9 @@ SeadraEvosMoves:
 	db 0
 ; Learnset
 	db 19, SMOKESCREEN
-	db 24, TWISTER
-	db 30, WATER_GUN
-	db 41, AGILITY
+	db 24, WATER_GUN
+	db 30, AGILITY
+	db 41, TWISTER
 	db 52, HYDRO_PUMP
 	db 0
 
