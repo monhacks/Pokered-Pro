@@ -24,7 +24,7 @@ HazeEffect_:
 .cureStatuses
 ;joenote - making sure to clear statuses and toxic counter
 	ld [wPlayerToxicCounter], a	;clear toxic counter
-;	ld [hl], a ;clear status
+	ld [hl], a ;clear status
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;	ld a, [hl]
 ;	ld [hl], $0
