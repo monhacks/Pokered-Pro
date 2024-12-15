@@ -42,7 +42,7 @@ TypeNames:
 .Ice:      db "ICE@"
 .Ground:   db "GROUND@"
 .Rock:     db "ROCK@"
-.Bird:     db "???@"      ;edited, BIRD previously
+.Bird:     db "BIRD@"      ;edited, ??? previously
 .Bug:      db "BUG@"
 .Ghost:    db "GHOST@"
 .Dragon:   db "DRAGON@"
