@@ -130,7 +130,7 @@ MoveEnd:
 	move BIDE,         BIDE_EFFECT,                  0, NORMAL,   100, 10
 	move METRONOME,    METRONOME_EFFECT,             0, NORMAL,   100, 10
 	move MIRROR_MOVE,  MIRROR_MOVE_EFFECT,           0, FLYING,   100, 20
-	move SELFDESTRUCT, EXPLODE_EFFECT,             130, NORMAL,   100,  5
+	move SELFDESTRUCT, EXPLODE_EFFECT,             150, NORMAL,   100,  5
 	move EGG_BOMB,     NO_ADDITIONAL_EFFECT,       100, NORMAL,    75, 10
 	move LICK,         PARALYZE_SIDE_EFFECT2,       30, GHOST,    100, 30
 	move SMOG,         POISON_SIDE_EFFECT2,         20, POISON,    75, 20
@@ -163,7 +163,7 @@ MoveEnd:
 	move SPLASH,       SPLASH_EFFECT,                0, NORMAL,   100, 40
 	move ACID_ARMOR,   DEFENSE_UP2_EFFECT,           0, POISON,   100, 40
 	move CRABHAMMER,   NO_ADDITIONAL_EFFECT,        90, WATER,     85, 10
-	move EXPLOSION,    EXPLODE_EFFECT,             170, NORMAL,   100,  5
+	move EXPLOSION,    EXPLODE_EFFECT,             200, NORMAL,   100,  5
 	move FURY_SWIPES,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, NORMAL,    95, 15
 	move BONEMERANG,   ATTACK_TWICE_EFFECT,         50, GROUND,    90, 10
 	move REST,         HEAL_EFFECT,                  0, PSYCHIC,  100, 10
