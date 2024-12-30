@@ -258,6 +258,7 @@ AIMoveChoiceModification3:
 	jr z, .nextMove
 	inc [hl] ; slightly discourage this move
 	jr .nextMove
+
 AIMoveChoiceModification4:	
 	nop        ; added to preserve Missingno
 	nop        ; added to preserve Missingno
