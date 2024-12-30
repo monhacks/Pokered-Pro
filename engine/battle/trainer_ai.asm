@@ -157,7 +157,8 @@ StatusAilmentMoveEffects:
 ; that fall in-between
 AIMoveChoiceModification2:
 	ld a, [wAILayer2Encouragement]
-	and a ;cp $1	;joenote - AI layer 2 should activate on 1st turn instead of 2nd turn after send
+;	and a 	;joenote - AI layer 2 should activate on 1st turn instead of 2nd turn after send
+        cp $0
 	ret nz
 	ld hl, wBuffer - 1 ; temp move selection array (-1 byte offset)
 	ld de, wEnemyMonMoves ; enemy moves
@@ -260,7 +261,6 @@ AIMoveChoiceModification3:
 	jr .nextMove
 
 AIMoveChoiceModification4:	
-	nop        ; added to preserve Missingno
 	nop        ; added to preserve Missingno
 	nop        ; added to preserve Missingno
 	ret
