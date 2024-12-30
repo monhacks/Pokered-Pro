@@ -24,15 +24,15 @@ HazeEffect_:
 .cureStatuses
 ;joenote - making sure to clear statuses and toxic counter
 	ld [wPlayerToxicCounter], a	;clear toxic counter
-	ld [hl], a ;clear status
+;	ld [hl], a ;clear status
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;	ld a, [hl]
-;	ld [hl], $0
-;	and SLP | (1 << FRZ)
-;	jr z, .cureVolatileStatuses
+	ld a, [hl]
+	ld [hl], $0
+	and SLP | (1 << FRZ)
+	jr z, .cureVolatileStatuses
 ; prevent the Pokemon from executing a move if it was asleep or frozen
-;	ld a, $ff
-;	ld [de], a
+	ld a, $ff
+	ld [de], a
 
 ;.cureVolatileStatuses
 	xor a
