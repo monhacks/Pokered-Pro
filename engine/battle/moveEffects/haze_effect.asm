@@ -34,7 +34,7 @@ HazeEffect_:
 	ld a, $ff
 	ld [de], a
 
-;.cureVolatileStatuses
+.cureVolatileStatuses
 	xor a
 	ld [wPlayerDisabledMove], a
 	ld [wEnemyDisabledMove], a
