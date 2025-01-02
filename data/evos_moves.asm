@@ -327,10 +327,9 @@ ExeggcuteEvosMoves:
 	db 25, CONFUSION
 	db 28, LEECH_SEED
 	db 32, STUN_SPORE
-	db 34, ABSORB         ; added just for Rival's Exeggcute
 	db 37, POISONPOWDER
 	db 42, SOLARBEAM
-	db 48, SLEEP_POWDER
+	db 47, SLEEP_POWDER
 	db 0
 
 GrimerEvosMoves:
