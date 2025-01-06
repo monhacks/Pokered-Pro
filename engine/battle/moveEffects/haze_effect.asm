@@ -22,10 +22,6 @@ HazeEffect_:
 	dec de ; de is now wEnemySelectedMove
 
 .cureStatuses
-;joenote - making sure to clear statuses and toxic counter
-	ld [wPlayerToxicCounter], a	;clear toxic counter
-;	ld [hl], a ;clear status
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	ld a, [hl]
 	ld [hl], $0
 	and SLP | (1 << FRZ)
