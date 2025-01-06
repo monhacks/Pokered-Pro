@@ -1549,7 +1549,6 @@ GolbatEvosMoves:
 	db 21, CONFUSE_RAY
 	db 32, WING_ATTACK
 	db 43, HAZE
-        db 46, TOXIC
 	db 0
 
 MewtwoEvosMoves:
